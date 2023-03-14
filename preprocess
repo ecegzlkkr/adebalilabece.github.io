@@ -1,0 +1,16 @@
+##How to install snpeff in linux
+
+# Go to home dir
+cd
+
+# Download latest version
+wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
+
+# Unzip file
+unzip snpEff_latest_core.zip
+
+
+##How to install snpeff in conda
+
+conda install -c bioconda snpeff 
+
