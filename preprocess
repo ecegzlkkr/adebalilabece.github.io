@@ -10,7 +10,15 @@ wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
 unzip snpEff_latest_core.zip
 
 
-##How to install snpeff in conda
+##SnpEFf is available via bioconda and can be easily installed via
 
 conda install -c bioconda snpeff 
+
+
+For input files which is to in SnpEff 
+
+##In cases were solely CDS is required by using information that are in GTF file and saving output in BED format in linux
+
+$cat Homo_sapiens.gtf | awk '$3 == "CDS" { split($9,nine,";"); printf"%s\t%s\t%s\t%s\t%s\t%s\n",$1,$4,$5,$7,nine[1],$10, $13, $14, $35, $36> $3.".bed"}'
+
 
