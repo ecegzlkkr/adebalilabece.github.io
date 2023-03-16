@@ -6,7 +6,7 @@
 Documentation: https://pcingola.github.io/SnpEff/
 
 #**Usage**
-
+'''
 SnpEff version SnpEff 5.1d (build 2022-04-19 15:49), by Pablo Cingolani
 Usage: snpEff [command] [options] [files]
 
@@ -66,3 +66,4 @@ Database options:
         -spliceRegionIntronMax <int> : Set maximum number of bases for splice site region within intron. Default: 8 bases
         -strict                      : Only use 'validated' transcripts (i.e. sequence has been checked). Default: false
         -ud , -upDownStreamLen <int> : Set upstream downstream interval length (in bases)
+'''
