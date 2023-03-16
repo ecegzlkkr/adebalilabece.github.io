@@ -64,4 +64,5 @@ Database options:
         -spliceRegionIntronMin <int> : Set minimum number of bases for splice site region within intron. Default: 3 bases
         -spliceRegionIntronMax <int> : Set maximum number of bases for splice site region within intron. Default: 8 bases
         -strict                      : Only use 'validated' transcripts (i.e. sequence has been checked). Default: false
-        -ud , -upDownStreamLen <int> : Set upstream downstream interval length (in bases)'''
+        -ud , -upDownStreamLen <int> : Set upstream downstream interval length (in bases)
+        '''
