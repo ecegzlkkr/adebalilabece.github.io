@@ -1,11 +1,11 @@
 
-#SnpEff 
+#**SnpEff** 
 
 The open source software for annotating SNPs in a VCF file, including amino acid changes in target locations.
 
 Documentation: https://pcingola.github.io/SnpEff/
 
-#Usage
+#**Usage**
 
 SnpEff version SnpEff 5.1d (build 2022-04-19 15:49), by Pablo Cingolani
 Usage: snpEff [command] [options] [files]
