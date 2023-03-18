@@ -31,8 +31,28 @@ In cases were solely CDS is required by using information that are in GTF file a
 ```sh
 $cat Homo_sapiens.gtf | awk '$3 == "CDS" { split($9,nine,";"); printf"%s\t%s\t%s\t%s\t%s\t%s\t%s\n",$1,$4,$5,$7,$10,$14,$36> $3.".bed"}'
 ```
-Information in sample BED file
+A few rows from a BED file are shown below as an example:
 ![image](https://user-images.githubusercontent.com/70514969/226106200-eddddb86-1eb8-44f7-969f-984acc797f92.png)
+
+###Sample VCF File 
+
+One of the input files should be formatted in Variant Call Format (VCF). Genomic variants are currently stored in this format, which is used by the 1000 Genomes Project. SnpEff also uses this format by default. 
+
+The VCF format can be summarized as being a tab-separated text file containing the following columns:
+
+| Headers | Description |
+| ------ | ------ |
+| #CHROM | Chromosome name |
+| POS | Position |
+| ID | Variant's identifier |
+| REF | Reference base(s) |
+| ALT | Alternate base(s) |
+| QUAL | Quality score |
+| FILTER | The variant passed the quality filter |
+| INFO |  A general description of the variant is provided here. Annotation information is added to this column by SnpEff. |
+
+A few rows from a VCF file are shown below as an example:
+![image](https://user-images.githubusercontent.com/70514969/226108407-17c3330a-4a26-4ef3-b27f-829e07423eb3.png)
 
 
 
