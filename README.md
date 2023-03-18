@@ -34,6 +34,18 @@ $cat Homo_sapiens.gtf | awk '$3 == "CDS" { split($9,nine,";"); printf"%s\t%s\t%s
 A few rows from a BED file are shown below as an example:
 ![image](https://user-images.githubusercontent.com/70514969/226106200-eddddb86-1eb8-44f7-969f-984acc797f92.png)
 
+###Sample Genome File 
+
+To be comphrended which genomes are supported in SnpEff by running the following command:
+```sh
+$ java -jar snpEff.jar databases
+```
+In order to get a prebuilt SnpEff database to be downloaded and installed manually, the easiest method is to use the `download` command. For instance, the following command can be used to install the SnpEff database for the human genome:
+```sh
+$ java -jar snpEff.jar download -v GRCh38.105
+```
+> Note:  Here you should choose the one that is compatible with your VCF file, taking into account the version of your `.genome` file. Otherwise, you may get different results depending on the genome you choose.
+
 ###Sample VCF File 
 
 One of the input files should be formatted in Variant Call Format (VCF). Genomic variants are currently stored in this format, which is used by the 1000 Genomes Project. SnpEff also uses this format by default. 
