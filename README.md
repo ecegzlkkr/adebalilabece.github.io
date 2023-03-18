@@ -70,7 +70,13 @@ A few rows from a VCF file are shown below as an example:
 
 ## Output file
 
-The explanation information is added to the INFO field of the VCF file used, so that variance annotations can be examined via SnpEff. In the annotation region, expressed as ANN, the variable can have more than one annotation, and these annotations are separated by commas. In addition, each annotation is marked with a "|" consists of multiple subdomains separated by a vertical line character.
+The explanation information is added to the INFO field of the VCF file used, so that variance annotations can be examined via SnpEff. 
+
+> In the annotation region, expressed as ANN, the variable can
+> have more than one annotation, and these annotations are 
+> separated by commas. In addition, each annotation is marked 
+> with a "|" consists of multiple subdomains separated by
+> a vertical line character.
 
 
 A few rows from output.vcf file are shown below as an example:
