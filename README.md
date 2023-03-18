@@ -52,7 +52,7 @@ The VCF format can be summarized as being a tab-separated text file containing t
 | INFO |  A general description of the variant is provided here. Annotation information is added to this column by SnpEff. |
 
 A few rows from a VCF file are shown below as an example:
-![image](https://user-images.githubusercontent.com/70514969/226108407-17c3330a-4a26-4ef3-b27f-829e07423eb3.png)
+![image](https://user-images.githubusercontent.com/70514969/226108483-bc82200a-5a60-45c3-b4c9-d41dcd3a01c3.png)
 
 
 
