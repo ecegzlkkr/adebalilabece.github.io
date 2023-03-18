@@ -85,4 +85,5 @@ A few rows from output.vcf file are shown below as an example:
 
 
 >` Note` : For additional information you can follow the [SnpEff] documentation. 
->[SnpEff]: <http://pcingola.github.io/SnpEff/> 
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.
+  [SnpEff]: <http://pcingola.github.io/SnpEff/> 
