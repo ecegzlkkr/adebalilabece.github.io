@@ -83,3 +83,6 @@ A few rows from output.vcf file are shown below as an example:
 
 ![image](https://user-images.githubusercontent.com/70514969/226110629-5c68254f-417f-4761-91c5-211ecb5fa283.png)
 
+
+>` Note` : For additional information you can follow the [SnpEff] documentation. 
+>[SnpEff]: <http://pcingola.github.io/SnpEff/> 
